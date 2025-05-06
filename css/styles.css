@@ -176,7 +176,7 @@ table td {
 
 /* Style rules for hero image and header */
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url(../images/Lab-Rat-Hero.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url(../images/Lab-Rat-Hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
