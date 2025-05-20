@@ -94,8 +94,9 @@ main {
 .content {
 	margin: 45px 1em 0px 1em;
     padding: .25em 1em;
-    background-color: #CCCCCC;
-    color: #1A1A1A;
+    background-color: #1B2A41;
+    /*color: #1A1A1A;*/
+    color: #FFB808;
     border-radius: 5px;
     margin-bottom: .25em;
     box-shadow: 4px 4px #1B2A41;
@@ -104,9 +105,46 @@ main {
 .content img {
     max-width: 100%;
     max-height: 600px;
-    margin: 1em auto;
+    margin: auto;
     border-radius: .5em;
-    box-shadow: 3px 3px #1B2A41;
+    box-shadow: 3px 3px #000000;
+}
+
+div .work-content {
+    background-color: #36454F;
+    padding: 1em;
+    margin: 0px 5px;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
+div .work-content-tile {
+    background-color: #36454F;
+    padding: 1em;
+    margin: 0px 5px;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+.work-content h3 {
+    margin-top: 1em;
+}
+
+.work-content-tile h3 {
+    margin-top: 1em;
+}
+
+.about-content img {
+    max-width: 100%;
+    max-height: 600px;
+    margin: auto;
+    border-radius: .5em;
+    box-shadow: 3px 3px #000000;
+}
+
+#info-blurb {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .content div .text-content {
@@ -116,9 +154,10 @@ main {
 }
 
 div .content-subheader {
-    background-color: #CCCCCC;
-    margin: 1em auto 1em auto;
-    padding-left: 1em;
+    background-color: #1A1A1A;
+    margin: 1em auto 0em auto;
+    padding-bottom: .75em;
+    border-radius: .5em;
 }
 
 .content .content-header {
@@ -128,11 +167,11 @@ div .content-subheader {
 }
 
 .content .content-subheader h2, h3, label, legend{
-    color: #1A1A1A;
+    color: #FFFFFF;
 }
 
 .content .content-subheader p{
-    color: #1A1A1A;
+    color: #FFFFFF;
 }
 
 .about-content {
@@ -176,7 +215,7 @@ table td {
 
 /* Style rules for hero image and header */
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url(../images/lab-rat-hero.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(../images/lab-rat-hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
